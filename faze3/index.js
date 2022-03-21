@@ -1,4 +1,4 @@
-var alternativaCorreta= "b";
+var alternativaCorreta= "c";
     
 
     var maximoTentativas = 3;
@@ -12,7 +12,7 @@ var alternativaCorreta= "b";
         if( alternativaCorreta == SelecioneAlertnativa ) {
 
             alert("Resposta Correta", + SelecioneAlertnativa);
-            window.location.assign("../armas/armas.html")
+            window.location.assign("../faze final/indexfinal.html")
 
             tentativaAtual = maximoTentativas; 
 
