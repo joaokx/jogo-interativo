@@ -1,10 +1,10 @@
-var alternativaCorreta= "a";
+var alternativaCorreta= "b";
 var myBtn = document.getElementById('myButton');
 
 
 myBtn.addEventListener('click', function(event) {
 
-    var maximoTentativas = 3;
+    var maximoTentativas = 2;
     var tentativaAtual = 1;
 
     while(tentativaAtual <= maximoTentativas) {
@@ -14,14 +14,14 @@ myBtn.addEventListener('click', function(event) {
 
         if( alternativaCorreta == SelecioneAlertnativa ) {
 
-            alert("Resposta Correta ,Parabéns Somente com a  Bravura sera capaz de derrotar o Monstro ", + SelecioneAlertnativa);
-            window.location.assign("../monstro/indexmonstro.html")
+            alert("Você decide usar seu Elixir mas o monstro o toma e acaba tendo efeito contrário tendo medo de qualquer coisa que o ataque, Sendo assim você o destroi com sua arma  e acaba  recuperando o pergaminho Sagrado ", + SelecioneAlertnativa);
+            window.location.assign("../faze final/indexfinal.html")
 
             tentativaAtual = maximoTentativas; 
 
-        } else if(tentativaAtual < 3 ) {
+        } else if(tentativaAtual < 2) {
 
-            alert("Resposta incorreta, O elixir não surtira efeito no monstro. Tente novamente");
+            alert("Resposta incorreta, o monstro preve seu movimento e te ataca . Tente novamente");
             
         } else{
             alert("GAME OVER")

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;1,100 & family= Roboto:ital,wght@0,100;0,300;0,400;1,100; 1.300;1.400 & display=trocar');
+
+body{
+    margin: 100px;
+    background-color: #000;
+    color: #fff;
+    justify-content:center ;
+   align-items: center;
+   text-align: center;
+   font-family: Roboto, sans-serif;
+   
+ }
+
+ .section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #000;
+    flex-direction: row;
+    display: flex;
+    
+    }
+    
+    .section .card .image img{
+      height: 100%;
+      width: 33%;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      font-family:Poppins, sans-serif;
+      
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      }
+    .connet{
+      display:flex ;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-direction: row;
+     }
+     
+     .card {
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+       transition: 0.3s;
+       border-radius: 30px;
+       background: rgba(0, 0, 0, 0.7);
+       flex-direction: row;
+     }
+    
+     .card .card-content{
+      display: flex;
+      flex-direction: row;
+      padding: 30px;
+      position: relative;
+      z-index: 100;
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    .card .button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      
+      }
+      
+      .card .button button{
+        background: #000;
+        outline: none;
+        border: none;
+        color:#fff;
+        padding: 8px 22px;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      
+      .button button:hover{
+        background:white;
+      }
+
+      .botão{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+     .card .botão .button{
+        background: #000;
+        outline: none;
+        border: none;
+        color:#fff;
+        padding: 8px 22px;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .botão button:hover{
+        background:grey;
+      }
+
+    input{
+        background: #000;
+        outline: none;
+        border: none;
+        color:#fff;
+        padding: 8px 22px;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    input:hover{
+        background:grey;
+    }
