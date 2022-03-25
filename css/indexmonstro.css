@@ -9,6 +9,7 @@ body{
    text-align: center;
    font-family: Roboto, sans-serif;
    list-style: none;
+   background-repeat: no-repeat;
    
  }
 
@@ -102,3 +103,5 @@ body{
     input:hover{
         background:grey;
     }
+
+    

@@ -9,6 +9,7 @@ body{
    text-align: center;
    font-family: Roboto, sans-serif;
    
+   
  }
  .li{
      align-items: center;
@@ -111,4 +112,27 @@ body{
 
       .botão button:hover{
         background:grey;
+      }
+
+      @media (max-width: 700px){
+        .container{
+          flex-wrap: wrap;
+          
+        }
+        .body{
+          max-width: 400px;
+        }
+        .image{
+          display: block;
+        }
+        .h1{
+          display: none;
+        }
+        .connet {
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        padding: 250px;
+        }
       }
